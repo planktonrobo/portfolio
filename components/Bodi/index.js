@@ -37,7 +37,7 @@ const Bodi = () => {
       <ParallaxLayer
         offset={1}
         speed={1.0}
-        className="container mx-auto max-w-screen-md px-2 flex w-full min-h-full "
+        className="container mx-auto max-w-screen-md px-3 flex w-full min-h-full "
       >
         <Prosepen />
       </ParallaxLayer>
@@ -50,7 +50,7 @@ const Bodi = () => {
       <ParallaxLayer
         offset={2}
         speed={1.0}
-        className="container mx-auto max-w-screen-md px-2 flex w-full min-h-full "
+        className="container mx-auto max-w-screen-md px-3 flex w-full min-h-full "
       >
         <DailyActs />
       </ParallaxLayer>
@@ -62,7 +62,7 @@ const Bodi = () => {
       <ParallaxLayer
         offset={3}
         speed={1.0}
-        className="container mx-auto max-w-screen-md px-2 flex w-full min-h-full "
+        className="container mx-auto max-w-screen-md px-3 flex w-full min-h-full "
       >
         <RB0 />
       </ParallaxLayer>
