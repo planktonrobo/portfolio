@@ -12,7 +12,7 @@ const DailyActs = () => {
         <div className="w-64 md:w-72 antialiased pl-2">
           <Image src={dailyacts} alt="dailyacts" />
         </div>
-        <div className="pl-4 md:pl-6 text-gray-500 dark:text-gray-900 flex gap-2 ">
+        <div className="pl-4 md:pl-6 text-gray-500 dark:text-gray-900 flex gap-3 ">
           <Link href="https://dailyacts.io/" passHref={true}>
             <a className="flex  items-center gap-1 border-b-2 border-green-50 hover:border-gray-300 dark:border-white dark:hover:border-gray-900">
               <span className="text-xs ">dailyacts.io</span>
