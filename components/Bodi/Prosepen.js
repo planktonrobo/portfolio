@@ -8,7 +8,7 @@ import Link from "next/link";
 const Prosepen = () => {
   return (
     <div className="max-w-full mx-auto">
-      <div className="py-10 filter dark:invert md:px-8">
+      <div className="py-8 md:py-10 filter dark:invert md:px-8">
         <div className="w-64 md:w-72 antialiased">
           <Image src={prosepen} alt="prosepen" />
         </div>

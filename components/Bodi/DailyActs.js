@@ -8,7 +8,7 @@ import Link from "next/link";
 const DailyActs = () => {
   return (
     <div className="max-w-full mx-auto">
-      <div className="py-10 filter dark:invert md:px-8">
+      <div className="py-8 md:py-10 filter dark:invert md:px-8">
         <div className="w-64 md:w-72 antialiased pl-2">
           <Image src={dailyacts} alt="dailyacts" />
         </div>

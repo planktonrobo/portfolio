@@ -8,7 +8,7 @@ import Link from "next/link";
 const RB0 = () => {
   return (
     <div className="max-w-full mx-auto">
-      <div className="py-10 filter dark:invert md:px-8">
+      <div className="py-8 md:py-10 filter dark:invert md:px-8">
         <div className="text-5xl md:text-6xl ml-2 dark:text-black font-bold flex items-end italic">
           RB-0{" "}
           <span>
