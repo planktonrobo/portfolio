@@ -9,7 +9,7 @@ const Prosepen = () => {
   return (
     <div className="max-w-full mx-auto w-full">
       <div className="py-10  filter dark:invert">
-        <div className="w-60 md:w-64 antialiased">
+        <div className="w-56 md:w-64 antialiased">
           <Image src={prosepen} alt="prosepen" />
         </div>
         <div className="pl-10 md:pl-12 text-gray-500 dark:text-gray-900 flex gap-3 ">
