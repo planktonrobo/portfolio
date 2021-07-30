@@ -49,7 +49,7 @@ const Prosepen = () => {
         <ReactPlayer className="react-player " url="https://youtu.be/DrzxaH1OPPQ" width="100%" height="100%"/>
       </div>
       <div className="flex justify-center ">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 bg-yellow-50 dark:bg-gray-900 shadow-xl rounded-xl h-auto w-full max-w-full p-4">
+        <div className="grid grid-cols-1 gap-2 md:gap-4 md:grid-cols-2 bg-yellow-50 dark:bg-gray-900 shadow-xl rounded-xl h-auto w-full max-w-full p-4">
           <div className="text-2xl antialiased font-semibold md:col-span-2">
             Notable:
           </div>

@@ -49,7 +49,7 @@ const DailyActs = () => {
         <ReactPlayer className="react-player " width="100%" height="100%" url="https://youtu.be/iRgqxC64MGA" />
       </div>
       <div className="flex justify-center ">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 bg-green-50 dark:bg-black shadow-xl rounded-xl h-auto w-full max-w-full p-4">
+        <div className="grid grid-cols-1 gap-2 md:gap-4 md:grid-cols-2 bg-green-50 dark:bg-black shadow-xl rounded-xl h-auto w-full max-w-full p-4">
           <div className="text-2xl antialiased font-semibold md:col-span-2">
             Notable:
           </div>

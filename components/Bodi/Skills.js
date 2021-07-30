@@ -6,8 +6,8 @@ const Skills = () => {
   return (
     <div className="pt-10 md:pt-20">
       <div className="text-3xl md:text-4xl font-semibold">Skills:</div>
-      <div className="pt-4 grid grid-cols-2 md:grid-cols-3 gap-4 ">
-        <div className="flex items-center gap-2 font-semibold ">
+      <div className="pt-4 grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="flex items-center gap-2 font-semibold">
           <span>
             <img
               className="w-5"
