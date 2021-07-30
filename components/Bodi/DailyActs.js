@@ -58,13 +58,13 @@ const DailyActs = () => {
             • Uses Google Cloud Functions to parse articles
           </div>
           <div className="text-base">
-            • Users can create and share archives with nested article data
+            • Create and share archives with nested article data
           </div>
           <div className="text-base">
-            • Display archive data in a timeline or table format
+            • Display saved data in a timeline or table format
           </div>
           <div className="text-base">
-            • Can parse article publish date from URL with RegEx
+            • Parse article publish date from URL with RegEx
           </div>
           <div className="text-base">
             • Login with Facebook, Twitter, or Google
