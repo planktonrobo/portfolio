@@ -9,10 +9,10 @@ const Prosepen = () => {
   return (
     <div className="max-w-full mx-auto">
       <div className="py-8 md:py-10 filter dark:invert md:px-8">
-        <div className="w-64 md:w-72 antialiased">
+        <div className="w-60 md:w-72 antialiased">
           <Image src={prosepen} alt="prosepen" />
         </div>
-        <div className="pl-12 md:pl-14 text-gray-500 dark:text-gray-900 flex gap-3 ">
+        <div className="pl-10 md:pl-14 text-gray-500 dark:text-gray-900 flex gap-3 ">
           <Link href="https://prosepen.com/" passHref={true}>
             <a className="flex  items-center gap-1 border-b-2 border-yellow-50 hover:border-gray-300 dark:border-gray-200 dark:hover:border-gray-900">
               <span className="text-xs ">prosepen.com</span>

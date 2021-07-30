@@ -9,7 +9,7 @@ const DailyActs = () => {
   return (
     <div className="max-w-full mx-auto">
       <div className="py-8 md:py-10 filter dark:invert md:px-8">
-        <div className="w-64 md:w-72 antialiased pl-2">
+        <div className="w-60 md:w-72 antialiased pl-2">
           <Image src={dailyacts} alt="dailyacts" />
         </div>
         <div className="pl-4 md:pl-6 text-gray-500 dark:text-gray-900 flex gap-3 ">
