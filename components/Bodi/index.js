@@ -18,7 +18,7 @@ const Bodi = () => {
       <ParallaxLayer
         offset={0}
         speed={0.5}
-        className="container mx-auto max-w-screen-md px-8 min-h-full"
+        className="container mx-auto max-w-screen-md px-6 min-h-full"
       >
         <Header />
         <div>
