@@ -61,7 +61,7 @@ const DailyActs = () => {
             • Create and share archives with nested article data
           </div>
           <div className="text-base">
-            • Display saved data in a timeline or table format
+            • Display saved data as a timeline or table
           </div>
           <div className="text-base">
             • Parse article publish date from URL with RegEx
