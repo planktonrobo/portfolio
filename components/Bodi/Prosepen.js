@@ -7,12 +7,12 @@ import Link from "next/link";
 
 const Prosepen = () => {
   return (
-    <div className="max-w-full mx-auto">
-      <div className="py-8 md:py-10 filter dark:invert md:px-8">
-        <div className="w-60 md:w-72 antialiased">
+    <div className="max-w-full mx-auto w-full">
+      <div className="py-10  filter dark:invert">
+        <div className="w-56 md:w-64 antialiased">
           <Image src={prosepen} alt="prosepen" />
         </div>
-        <div className="pl-10 md:pl-14 text-gray-500 dark:text-gray-900 flex gap-3 ">
+        <div className="pl-10 md:pl-12 text-gray-500 dark:text-gray-900 flex gap-3 ">
           <Link href="https://prosepen.com/" passHref={true}>
             <a className="flex  items-center gap-1 border-b-2 border-yellow-50 hover:border-gray-300 dark:border-gray-200 dark:hover:border-gray-900">
               <span className="text-xs ">prosepen.com</span>
@@ -45,10 +45,10 @@ const Prosepen = () => {
           </Link>
         </div>
       </div>
-      <div className="flex justify-center py-8 ">
-        <ReactPlayer url="https://youtu.be/DrzxaH1OPPQ" />
+      <div className="player-wrapper mb-2 md:mb-4">
+        <ReactPlayer className="react-player " url="https://youtu.be/DrzxaH1OPPQ" width="100%" height="100%"/>
       </div>
-      <div className="flex justify-center md:px-14">
+      <div className="flex justify-center ">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 bg-yellow-50 dark:bg-gray-900 shadow-xl rounded-xl h-auto w-full max-w-full p-4">
           <div className="text-2xl antialiased font-semibold md:col-span-2">
             Notable:

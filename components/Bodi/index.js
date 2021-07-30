@@ -37,7 +37,7 @@ const Bodi = () => {
       <ParallaxLayer
         offset={1}
         speed={1.0}
-        className="container mx-auto max-w-screen-md px-3 flex w-full min-h-full "
+        className="container mx-auto max-w-screen-md  px-3 flex w-full min-h-full "
       >
         <Prosepen />
       </ParallaxLayer>

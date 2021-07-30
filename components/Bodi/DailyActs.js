@@ -7,12 +7,12 @@ import Link from "next/link";
 
 const DailyActs = () => {
   return (
-    <div className="max-w-full mx-auto">
-      <div className="py-8 md:py-10 filter dark:invert md:px-8">
-        <div className="w-60 md:w-72 antialiased pl-2">
+    <div className="max-w-full mx-auto w-full">
+      <div className="py-10 filter dark:invert ">
+        <div className="w-56 md:w-64 antialiased pl-2">
           <Image src={dailyacts} alt="dailyacts" />
         </div>
-        <div className="pl-4 md:pl-6 text-gray-500 dark:text-gray-900 flex gap-3 ">
+        <div className="pl-4 md:pl-5 text-gray-500 dark:text-gray-900 flex gap-3 ">
           <Link href="https://dailyacts.io/" passHref={true}>
             <a className="flex  items-center gap-1 border-b-2 border-green-50 hover:border-gray-300 dark:border-white dark:hover:border-gray-900">
               <span className="text-xs ">dailyacts.io</span>
@@ -45,10 +45,10 @@ const DailyActs = () => {
           </Link>
         </div>
       </div>
-      <div className="flex justify-center py-8 ">
-        <ReactPlayer url="https://youtu.be/iRgqxC64MGA" />
+      <div className="player-wrapper mb-2 md:mb-4 ">
+        <ReactPlayer className="react-player " width="100%" height="100%" url="https://youtu.be/iRgqxC64MGA" />
       </div>
-      <div className="flex justify-center md:px-10">
+      <div className="flex justify-center ">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 bg-green-50 dark:bg-black shadow-xl rounded-xl h-auto w-full max-w-full p-4">
           <div className="text-2xl antialiased font-semibold md:col-span-2">
             Notable:

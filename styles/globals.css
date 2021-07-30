@@ -14,3 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  margin: auto;
+  border-radius: ;
+
+
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0rem;
+  overflow: hidden;
+  height: 100%;
+ 
+}
+
