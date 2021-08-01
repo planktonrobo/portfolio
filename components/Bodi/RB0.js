@@ -9,7 +9,7 @@ const RB0 = () => {
   return (
     <div className="max-w-full mx-auto w-full min">
       <div className="py-10 filter dark:invert ∂">
-        <div className="text-5xl md:text-6xl ml-2 dark:text-black font-bold flex items-end italic">
+        <div className="text-5xl md:text-6xl ml-2 dark:text-black font-bold flex items-end italic transition duration-150 ease-in-out transform hover:-translate-y-1 ">
           RB-0{" "}
           <span>
             {" "}
