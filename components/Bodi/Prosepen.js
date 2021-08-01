@@ -7,14 +7,14 @@ import Link from "next/link";
 
 const Prosepen = () => {
   return (
-    <div className="max-w-full mx-auto w-full">
+    <div className="max-w-full mx-auto w-full child">
       <div className="py-10  filter dark:invert">
         <div className="w-56 md:w-64 antialiased">
           <Image src={prosepen} alt="prosepen" />
         </div>
         <div className="pl-10 md:pl-12 text-gray-500 dark:text-gray-900 flex gap-3 ">
           <Link href="https://prosepen.com/" passHref={true}>
-            <a className="flex  items-center gap-1 border-b-2 border-yellow-50 hover:border-gray-300 dark:border-gray-200 dark:hover:border-gray-900">
+            <a className="flex  items-center gap-1 border-b-2 border-green-50 hover:border-gray-300 dark:border-gray-200 dark:hover:border-gray-900">
               <span className="text-xs ">prosepen.com</span>
               <span>
                 <svg
@@ -49,7 +49,7 @@ const Prosepen = () => {
         <ReactPlayer className="react-player " url="https://youtu.be/DrzxaH1OPPQ" width="100%" height="100%"/>
       </div>
       <div className="flex justify-center ">
-        <div className="grid grid-cols-1 gap-2 md:gap-4 md:grid-cols-2 bg-yellow-50 dark:bg-gray-900 shadow-xl rounded-xl h-auto w-full max-w-full p-4">
+        <div className="grid grid-cols-1 gap-2 md:gap-4 md:grid-cols-2 bg-green-50 dark:bg-gray-900 shadow-xl rounded-xl h-auto w-full max-w-full p-4">
           <div className="text-2xl antialiased font-semibold md:col-span-2">
             Notable:
           </div>

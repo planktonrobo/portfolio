@@ -14,10 +14,9 @@ const Skills = dynamic(() => import("./Skills"));
 
 const Bodi = () => {
   return (
-    <Parallax pages={5} style={{ top: "0", left: "0" }}>
-      <ParallaxLayer
-        offset={0}
-        speed={0.5}
+    <div className="grid grid-cols-1 gap-28 md:gap-40">
+      <section
+       
         className="container mx-auto max-w-screen-md px-6 min-h-full"
       >
         <Header />
@@ -26,55 +25,35 @@ const Bodi = () => {
           <Skills />
           <Preview />
         </div>
-      </ParallaxLayer>
+      </section>
 
-      <ParallaxLayer
-        offset={1}
-        speed={0.4}
-        className="bg-yellow-50 dark:bg-gray-900 min-h-full"
-      />
+    
 
-      <ParallaxLayer
-        offset={1}
-        speed={1.0}
+      <section
+   
         className="container mx-auto max-w-screen-md  px-3 flex w-full min-h-full "
       >
         <Prosepen />
-      </ParallaxLayer>
+      </section>
 
-      <ParallaxLayer
-        offset={2}
-        speed={0.4}
-        className="bg-green-50 dark:bg-black min-h-full"
-      />
-      <ParallaxLayer
-        offset={2}
-        speed={1.0}
+   
+      <section
+  
         className="container mx-auto max-w-screen-md px-3 flex w-full min-h-full "
       >
         <DailyActs />
-      </ParallaxLayer>
-      <ParallaxLayer
-        offset={3}
-        speed={0.4}
-        className="bg-yellow-50 dark:bg-gray-900 min-h-full"
-      />
-      <ParallaxLayer
-        offset={3}
-        speed={1.0}
+      </section>
+ 
+      <section
+    
         className="container mx-auto max-w-screen-md px-3 flex w-full min-h-full "
       >
         <RB0 />
-      </ParallaxLayer>
-      <ParallaxLayer
-        offset={4}
-        speed={0.4}
-        className="bg-green-50 dark:bg-black min-h-full"
-      />
-      <ParallaxLayer
-        offset={4}
-        speed={1.0}
-        className="flex justify-center items-center"
+      </section>
+ 
+      <section
+       
+        className="flex justify-center items-center min-h-screen"
       >
         <div className="flex-none">
           <div className="text-6xl font-bold">Contact me!</div>
@@ -98,8 +77,8 @@ const Bodi = () => {
             nmwardlow@gmail.com
           </div>
         </div>
-      </ParallaxLayer>
-    </Parallax>
+      </section>
+    </div>
   );
 };
 

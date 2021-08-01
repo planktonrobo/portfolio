@@ -32,4 +32,12 @@ a {
   height: 100%;
  
 }
+.container {
+
+  scroll-snap-type: y mandatory;
+}
+
+.child {
+  scroll-snap-align: start;
+}
 
